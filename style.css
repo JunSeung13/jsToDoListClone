@@ -64,6 +64,21 @@ body {
   color: var(--main-clock-color);
 }
 
+.name input {
+  border: none;
+  background-color: var(--main-background-color);
+  border-bottom: 2px solid var(--main-border-color);
+  font-family: inherit;
+  outline-style: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: center;
+  color: var(--main-font-color);
+  font-size: 2.5vw;
+  margin-top: 3%;
+}
+
 .name {
   border: none;
   background-color: var(--main-background-color);
