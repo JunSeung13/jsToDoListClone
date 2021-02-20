@@ -1,9 +1,9 @@
 @import "reset.css";
 
 :root {
-  --main-clock-color: #4c4c4c;
+  --main-clock-color: #f7f7f7;
   --main-weater-color: #4c4c4c;
-  --main-name-color: #4c4c4c;
+  --main-name-color: #f7f7f7;
   --main-border-color: #f7f7f7;
   --main-background-color: rgba(0, 0, 0, 0);
   --main-font-color: #f7f7f7;
@@ -60,14 +60,23 @@ body {
 }
 
 .clock {
-  font-size: 8vw;
+  font-size: 7vw;
   color: var(--main-clock-color);
 }
 
 .name {
-  font-size: 4vw;
+  border: none;
+  background-color: var(--main-background-color);
+  border-bottom: 2px solid var(--main-border-color);
+  font-family: inherit;
+  outline-style: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: center;
+  color: var(--main-font-color);
+  font-size: 2.5vw;
   margin-top: 3%;
-  color: var(--main-name-color);
 }
 
 .toDoInput {
@@ -79,7 +88,7 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  font-size: 3vw;
+  font-size: 1.5vw;
   text-align: center;
   margin-top: 7%;
   color: var(--main-font-color);
